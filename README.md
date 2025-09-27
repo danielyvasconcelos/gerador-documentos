@@ -15,21 +15,6 @@ Sistema de automação para geração de documentos personalizados (propostas, o
 - **python-docx**: Manipulação de documentos Word
 - **OS**: Organização de arquivos
 
-### Estrutura do Projeto
-```
-gerador-documentos/
-├── data/
-│   ├── clientes_pendentes.xlsx
-│   └── documentos_gerados/
-├── templates/
-│   └── modelo_proposta.docx
-├── src/
-│   ├── gerador_documentos.py
-│   └── utils.py
-├── requirements.txt
-└── README.md
-```
-
 ### Impacto Esperado
 - Redução de tempo: de horas para minutos
 - Eliminação de erros manuais
