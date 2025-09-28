@@ -6,8 +6,10 @@ Automatiza a criação de propostas comerciais a partir de dados do Excel
 import openpyxl
 from docx import Document
 import os
+import time
 from datetime import datetime
 from validador import ValidadorDados
+from logger import Logger
 
 class GeradorRPontes:
     """Classe principal que gera documentos Word a partir de dados do Excel"""
@@ -16,9 +18,11 @@ class GeradorRPontes:
         self.caminho_planilha = caminho_planilha
         self.caminho_template = caminho_template
         self.pasta_saida = "../data/documentos_gerados"
+        self.logger = Logger()
         
     def ler_dados_completos(self):
         """Lê e combina dados das 4 abas da planilha RPONTES"""
+        self.logger.info(f"Carregando planilha: {os.path.basename(self.caminho_planilha)}")
         wb = openpyxl.load_workbook(self.caminho_planilha)
         
         # Carrega cada aba da planilha
@@ -61,10 +65,12 @@ class GeradorRPontes:
             dados_completos.append(cliente)
             
         wb.close()
+        self.logger.info(f"Dados carregados: {len(dados_completos)} clientes encontrados")
         return dados_completos
     
     def gerar_documento(self, dados_cliente):
         """Gera documento Word personalizado substituindo os placeholders"""
+        inicio = time.time()
         doc = Document(self.caminho_template)
         
         # Substitui placeholders no formato {CAMPO} pelos valores reais
@@ -84,17 +90,24 @@ class GeradorRPontes:
         caminho_saida = os.path.join(self.pasta_saida, nome_arquivo)
         
         doc.save(caminho_saida)
+        duracao = time.time() - inicio
+        self.logger.sucesso(f"Documento gerado para {dados_cliente['NOME_CLIENTE']} em {duracao:.2f}s")
         return caminho_saida
     
     def processar_clientes(self, limite=None):
         """Método principal que coordena todo o processo de geração"""
+        inicio_total = time.time()
+        self.logger.inicio_processo("Processamento de clientes")
+        
         # Lê dados da planilha
         dados_clientes = self.ler_dados_completos()
         
         if limite:
             dados_clientes = dados_clientes[:limite]
+            self.logger.info(f"Limitando processamento a {limite} clientes")
         
         # Valida os dados antes de gerar documentos
+        self.logger.info("Iniciando validação de dados")
         validador = ValidadorDados()
         print("Validando dados...")
         
@@ -103,14 +116,21 @@ class GeradorRPontes:
             if validador.validar_cliente(cliente, i + 1):  # +1 por causa do cabeçalho
                 clientes_validos.append(cliente)
         
-        print(validador.obter_relatorio_erros())
+        relatorio_validacao = validador.obter_relatorio_erros()
+        print(relatorio_validacao)
+        
+        invalidos = len(dados_clientes) - len(clientes_validos)
+        self.logger.info(f"Validação concluída: {len(clientes_validos)} válidos, {invalidos} inválidos")
         
         if not clientes_validos:
+            self.logger.erro("Nenhum cliente válido encontrado")
             print("Nenhum cliente valido encontrado!")
             return []
         
         # Gera documentos para clientes válidos
+        self.logger.info(f"Iniciando geração de {len(clientes_validos)} documentos")
         documentos_gerados = []
+        erros_geracao = 0
         print(f"Gerando documentos para {len(clientes_validos)} clientes validos...")
         
         for i, cliente in enumerate(clientes_validos, 1):
@@ -119,7 +139,15 @@ class GeradorRPontes:
                 documentos_gerados.append(caminho_doc)
                 print(f"{i:2d}. {cliente['NOME_CLIENTE']} - OK")
             except Exception as e:
+                erros_geracao += 1
+                self.logger.erro(f"Falha ao gerar documento para {cliente['NOME_CLIENTE']}: {e}")
                 print(f"{i:2d}. {cliente['NOME_CLIENTE']} - ERRO: {e}")
+        
+        # Estatísticas finais
+        duracao_total = time.time() - inicio_total
+        sucessos = len(documentos_gerados)
+        self.logger.estatisticas(len(clientes_validos), sucessos, erros_geracao)
+        self.logger.fim_processo("Processamento de clientes", duracao_total)
         
         return documentos_gerados
 
