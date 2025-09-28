@@ -1,0 +1,65 @@
+# Executáveis e builds
+*.exe
+*.msi
+*.app
+dist/
+build/
+release/
+
+# Arquivos de release
+GeradorDocumentos_v*.zip
+GeradorDocumentos_v*/
+
+# PyInstaller
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+data/logs/
+
+# Documentos gerados (manter alguns exemplos)
+data/documentos_gerados/*.docx
+!data/documentos_gerados/Proposta_001_2025_Maria_Oliveira.docx
+!data/documentos_gerados/Proposta_002_2025_João_Santos.docx
+
+# Arquivos temporários do Office
+~$*.docx
+~$*.xlsx
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos de configuração local
+config.local.py
+settings.local.py
+
+# Dados sensíveis (se houver)
+*.key
+*.pem
+secrets/

@@ -123,6 +123,28 @@ O sistema gera logs detalhados com:
 - **Logs Profissionais:** Rastreamento completo com timestamps
 - **Multiplataforma:** Funciona em qualquer sistema com Python
 
+## Distribuição
+
+### **Executável (.exe)**
+
+Para gerar o executável:
+
+```bash
+# Instalar PyInstaller
+pip install pyinstaller
+
+# Gerar executável
+python -m PyInstaller --onefile --windowed --name=GeradorDocumentos src/interface_grafica.py
+```
+
+**Resultado:** `dist/GeradorDocumentos.exe` (funciona sem Python instalado)
+
+### **GitHub Releases**
+
+- O executável não está no repositório (arquivo muito grande)
+- Baixe a versão compilada em [Releases](../../releases)
+- Ou compile você mesmo usando as instruções acima
+
 ## Impacto
 
 - **Tempo:** De horas para minutos
