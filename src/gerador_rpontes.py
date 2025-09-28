@@ -14,11 +14,15 @@ from logger import Logger
 class GeradorRPontes:
     """Classe principal que gera documentos Word a partir de dados do Excel"""
     
-    def __init__(self, caminho_planilha, caminho_template):
+    def __init__(self, caminho_planilha, caminho_template=None, pasta_saida=None):
         self.caminho_planilha = caminho_planilha
-        self.caminho_template = caminho_template
-        self.pasta_saida = "../data/documentos_gerados"
+        self.caminho_template = caminho_template or "../templates/modelo_proposta.docx"
+        self.pasta_saida = pasta_saida or "../data/documentos_gerados"
         self.logger = Logger()
+        
+        # Cria pasta de saída se não existir
+        if not os.path.exists(self.pasta_saida):
+            os.makedirs(self.pasta_saida)
         
     def ler_dados_completos(self):
         """Lê e combina dados das 4 abas da planilha RPONTES"""
@@ -73,15 +77,28 @@ class GeradorRPontes:
         inicio = time.time()
         doc = Document(self.caminho_template)
         
-        # Substitui placeholders no formato {CAMPO} pelos valores reais
+        # Substitui placeholders PRESERVANDO a formatação original
         for paragraph in doc.paragraphs:
-            texto_original = paragraph.text
-            for key, value in dados_cliente.items():
-                if value:
-                    placeholder = f"{{{key}}}"
-                    if placeholder in texto_original:
-                        texto_original = texto_original.replace(placeholder, str(value))
-            paragraph.text = texto_original
+            for run in paragraph.runs:
+                texto_run = run.text
+                for key, value in dados_cliente.items():
+                    if value:
+                        placeholder = f"{{{key}}}"
+                        if placeholder in texto_run:
+                            run.text = texto_run.replace(placeholder, str(value))
+        
+        # Também verifica tabelas (se houver)
+        for table in doc.tables:
+            for row in table.rows:
+                for cell in row.cells:
+                    for paragraph in cell.paragraphs:
+                        for run in paragraph.runs:
+                            texto_run = run.text
+                            for key, value in dados_cliente.items():
+                                if value:
+                                    placeholder = f"{{{key}}}"
+                                    if placeholder in texto_run:
+                                        run.text = texto_run.replace(placeholder, str(value))
         
         # Cria nome do arquivo: Proposta_001_2025_Maria_Silva.docx
         nome_cliente = str(dados_cliente['NOME_CLIENTE']).replace(' ', '_')

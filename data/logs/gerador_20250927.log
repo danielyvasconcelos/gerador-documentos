@@ -78,3 +78,620 @@
 2025-09-27 21:52:39,713 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.03s
 2025-09-27 21:52:39,713 - INFO - ESTATISTICAS: Total=32, Sucessos=32, Erros=0
 2025-09-27 21:52:39,713 - INFO - FIM: Processamento de clientes - Duração: 1.52s
+2025-09-27 22:00:51,509 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:00:51,510 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:00:51,528 - INFO - Dados carregados: 32 clientes encontrados
+2025-09-27 22:00:51,528 - INFO - Iniciando validação de dados
+2025-09-27 22:00:51,528 - INFO - Validação concluída: 32 válidos, 0 inválidos
+2025-09-27 22:00:51,528 - INFO - Iniciando geração de 32 documentos
+2025-09-27 22:00:51,576 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.05s
+2025-09-27 22:00:51,606 - INFO - SUCESSO: Documento gerado para João Santos em 0.03s
+2025-09-27 22:00:51,632 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.03s
+2025-09-27 22:00:51,664 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.03s
+2025-09-27 22:00:51,692 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.03s
+2025-09-27 22:00:51,718 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.03s
+2025-09-27 22:00:51,749 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.03s
+2025-09-27 22:00:51,778 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.03s
+2025-09-27 22:00:51,806 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.03s
+2025-09-27 22:00:51,837 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.03s
+2025-09-27 22:00:51,867 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.03s
+2025-09-27 22:00:51,904 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.04s
+2025-09-27 22:00:51,941 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.04s
+2025-09-27 22:00:51,994 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.05s
+2025-09-27 22:00:52,052 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.06s
+2025-09-27 22:00:52,096 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.04s
+2025-09-27 22:00:52,123 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.03s
+2025-09-27 22:00:52,155 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.03s
+2025-09-27 22:00:52,181 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.03s
+2025-09-27 22:00:52,210 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.03s
+2025-09-27 22:00:52,233 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.02s
+2025-09-27 22:00:52,261 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.03s
+2025-09-27 22:00:52,288 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.03s
+2025-09-27 22:00:52,322 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.03s
+2025-09-27 22:00:52,354 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.03s
+2025-09-27 22:00:52,386 - INFO - SUCESSO: Documento gerado para André Morais em 0.03s
+2025-09-27 22:00:52,414 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.03s
+2025-09-27 22:00:52,445 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.03s
+2025-09-27 22:00:52,474 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.03s
+2025-09-27 22:00:52,500 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.03s
+2025-09-27 22:00:52,527 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.03s
+2025-09-27 22:00:52,552 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.02s
+2025-09-27 22:00:52,552 - INFO - ESTATISTICAS: Total=32, Sucessos=32, Erros=0
+2025-09-27 22:00:52,553 - INFO - FIM: Processamento de clientes - Duração: 1.04s
+2025-09-27 22:04:42,916 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:04:42,916 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:04:42,936 - INFO - Dados carregados: 33 clientes encontrados
+2025-09-27 22:04:42,936 - INFO - Iniciando validação de dados
+2025-09-27 22:04:42,936 - INFO - Validação concluída: 33 válidos, 0 inválidos
+2025-09-27 22:04:42,937 - INFO - Iniciando geração de 33 documentos
+2025-09-27 22:04:42,996 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.06s
+2025-09-27 22:04:43,032 - INFO - SUCESSO: Documento gerado para João Santos em 0.04s
+2025-09-27 22:04:43,071 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.04s
+2025-09-27 22:04:43,113 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.04s
+2025-09-27 22:04:43,156 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.04s
+2025-09-27 22:04:43,196 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.04s
+2025-09-27 22:04:43,225 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.03s
+2025-09-27 22:04:43,252 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.03s
+2025-09-27 22:04:43,282 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.03s
+2025-09-27 22:04:43,311 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.03s
+2025-09-27 22:04:43,336 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.02s
+2025-09-27 22:04:43,366 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.03s
+2025-09-27 22:04:43,398 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.03s
+2025-09-27 22:04:43,429 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.03s
+2025-09-27 22:04:43,455 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.03s
+2025-09-27 22:04:43,482 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.03s
+2025-09-27 22:04:43,506 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.02s
+2025-09-27 22:04:43,534 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.03s
+2025-09-27 22:04:43,564 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.03s
+2025-09-27 22:04:43,594 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.03s
+2025-09-27 22:04:43,663 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.07s
+2025-09-27 22:04:43,685 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.02s
+2025-09-27 22:04:43,713 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.03s
+2025-09-27 22:04:43,749 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.04s
+2025-09-27 22:04:43,778 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.03s
+2025-09-27 22:04:43,805 - INFO - SUCESSO: Documento gerado para André Morais em 0.03s
+2025-09-27 22:04:43,836 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.03s
+2025-09-27 22:04:43,866 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.03s
+2025-09-27 22:04:43,894 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.03s
+2025-09-27 22:04:43,921 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.03s
+2025-09-27 22:04:43,950 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.03s
+2025-09-27 22:04:43,981 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.03s
+2025-09-27 22:04:44,038 - INFO - SUCESSO: Documento gerado para Daniely Evellin em 0.06s
+2025-09-27 22:04:44,038 - INFO - ESTATISTICAS: Total=33, Sucessos=33, Erros=0
+2025-09-27 22:04:44,038 - INFO - FIM: Processamento de clientes - Duração: 1.12s
+2025-09-27 22:17:11,436 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:17:11,436 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:17:11,469 - INFO - Dados carregados: 33 clientes encontrados
+2025-09-27 22:17:11,469 - INFO - Iniciando validação de dados
+2025-09-27 22:17:11,469 - INFO - Validação concluída: 33 válidos, 0 inválidos
+2025-09-27 22:17:11,470 - INFO - Iniciando geração de 33 documentos
+2025-09-27 22:17:11,502 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.03s
+2025-09-27 22:17:11,532 - INFO - SUCESSO: Documento gerado para João Santos em 0.03s
+2025-09-27 22:17:11,556 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.02s
+2025-09-27 22:17:11,581 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.02s
+2025-09-27 22:17:11,618 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.04s
+2025-09-27 22:17:11,657 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.04s
+2025-09-27 22:17:11,686 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.03s
+2025-09-27 22:17:11,712 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.03s
+2025-09-27 22:17:11,741 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.03s
+2025-09-27 22:17:11,767 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.03s
+2025-09-27 22:17:11,809 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.04s
+2025-09-27 22:17:11,840 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.03s
+2025-09-27 22:17:11,865 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.02s
+2025-09-27 22:17:11,896 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.03s
+2025-09-27 22:17:11,927 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.03s
+2025-09-27 22:17:11,965 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.04s
+2025-09-27 22:17:11,993 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.03s
+2025-09-27 22:17:12,020 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.03s
+2025-09-27 22:17:12,045 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.02s
+2025-09-27 22:17:12,138 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.09s
+2025-09-27 22:17:12,192 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.05s
+2025-09-27 22:17:12,223 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.03s
+2025-09-27 22:17:12,268 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.04s
+2025-09-27 22:17:12,301 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.03s
+2025-09-27 22:17:12,333 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.03s
+2025-09-27 22:17:12,360 - INFO - SUCESSO: Documento gerado para André Morais em 0.03s
+2025-09-27 22:17:12,389 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.03s
+2025-09-27 22:17:12,410 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.02s
+2025-09-27 22:17:12,437 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.03s
+2025-09-27 22:17:12,462 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.02s
+2025-09-27 22:17:12,505 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.04s
+2025-09-27 22:17:12,537 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.03s
+2025-09-27 22:17:12,566 - INFO - SUCESSO: Documento gerado para Daniely Evellin em 0.03s
+2025-09-27 22:17:12,567 - INFO - ESTATISTICAS: Total=33, Sucessos=33, Erros=0
+2025-09-27 22:17:12,567 - INFO - FIM: Processamento de clientes - Duração: 1.13s
+2025-09-27 22:17:41,453 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:17:41,454 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:17:41,469 - INFO - Dados carregados: 33 clientes encontrados
+2025-09-27 22:17:41,470 - INFO - Iniciando validação de dados
+2025-09-27 22:17:41,470 - INFO - Validação concluída: 33 válidos, 0 inválidos
+2025-09-27 22:17:41,470 - INFO - Iniciando geração de 33 documentos
+2025-09-27 22:17:41,492 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.02s
+2025-09-27 22:17:41,523 - INFO - SUCESSO: Documento gerado para João Santos em 0.03s
+2025-09-27 22:17:41,554 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.03s
+2025-09-27 22:17:41,581 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.03s
+2025-09-27 22:17:41,613 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.03s
+2025-09-27 22:17:41,637 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.02s
+2025-09-27 22:17:41,658 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.02s
+2025-09-27 22:17:41,691 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.03s
+2025-09-27 22:17:41,723 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.03s
+2025-09-27 22:17:41,747 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.02s
+2025-09-27 22:17:41,772 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.02s
+2025-09-27 22:17:41,795 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.02s
+2025-09-27 22:17:41,815 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.02s
+2025-09-27 22:17:41,840 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.03s
+2025-09-27 22:17:41,862 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.02s
+2025-09-27 22:17:41,886 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.02s
+2025-09-27 22:17:41,913 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.03s
+2025-09-27 22:17:41,934 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.02s
+2025-09-27 22:17:41,964 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.03s
+2025-09-27 22:17:42,025 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.06s
+2025-09-27 22:17:42,049 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.02s
+2025-09-27 22:17:42,083 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.03s
+2025-09-27 22:17:42,106 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.02s
+2025-09-27 22:17:42,127 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.02s
+2025-09-27 22:17:42,150 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.02s
+2025-09-27 22:17:42,172 - INFO - SUCESSO: Documento gerado para André Morais em 0.02s
+2025-09-27 22:17:42,197 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.02s
+2025-09-27 22:17:42,221 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.02s
+2025-09-27 22:17:42,247 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.03s
+2025-09-27 22:17:42,276 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.03s
+2025-09-27 22:17:42,305 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.03s
+2025-09-27 22:17:42,326 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.02s
+2025-09-27 22:17:42,352 - INFO - SUCESSO: Documento gerado para Daniely Evellin em 0.03s
+2025-09-27 22:17:42,353 - INFO - ESTATISTICAS: Total=33, Sucessos=33, Erros=0
+2025-09-27 22:17:42,353 - INFO - FIM: Processamento de clientes - Duração: 0.90s
+2025-09-27 22:23:34,169 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:23:34,169 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:23:34,186 - INFO - Dados carregados: 33 clientes encontrados
+2025-09-27 22:23:34,187 - INFO - Iniciando validação de dados
+2025-09-27 22:23:34,187 - INFO - Validação concluída: 33 válidos, 0 inválidos
+2025-09-27 22:23:34,188 - INFO - Iniciando geração de 33 documentos
+2025-09-27 22:23:34,232 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.04s
+2025-09-27 22:23:34,262 - INFO - SUCESSO: Documento gerado para João Santos em 0.03s
+2025-09-27 22:23:34,288 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.03s
+2025-09-27 22:23:34,308 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.02s
+2025-09-27 22:23:34,335 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.03s
+2025-09-27 22:23:34,360 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.02s
+2025-09-27 22:23:34,387 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.03s
+2025-09-27 22:23:34,414 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.03s
+2025-09-27 22:23:34,444 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.03s
+2025-09-27 22:23:34,470 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.03s
+2025-09-27 22:23:34,493 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.02s
+2025-09-27 22:23:34,517 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.02s
+2025-09-27 22:23:34,546 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.03s
+2025-09-27 22:23:34,579 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.03s
+2025-09-27 22:23:34,609 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.03s
+2025-09-27 22:23:34,634 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.02s
+2025-09-27 22:23:34,659 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.02s
+2025-09-27 22:23:34,686 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.03s
+2025-09-27 22:23:34,712 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.03s
+2025-09-27 22:23:34,782 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.07s
+2025-09-27 22:23:34,806 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.02s
+2025-09-27 22:23:34,831 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.02s
+2025-09-27 22:23:34,857 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.03s
+2025-09-27 22:23:34,881 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.02s
+2025-09-27 22:23:34,908 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.03s
+2025-09-27 22:23:34,934 - INFO - SUCESSO: Documento gerado para André Morais em 0.03s
+2025-09-27 22:23:34,959 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.02s
+2025-09-27 22:23:34,985 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.03s
+2025-09-27 22:23:35,010 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.02s
+2025-09-27 22:23:35,035 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.02s
+2025-09-27 22:23:35,060 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.02s
+2025-09-27 22:23:35,090 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.03s
+2025-09-27 22:23:35,113 - INFO - SUCESSO: Documento gerado para Daniely Evellin em 0.02s
+2025-09-27 22:23:35,114 - INFO - ESTATISTICAS: Total=33, Sucessos=33, Erros=0
+2025-09-27 22:23:35,114 - INFO - FIM: Processamento de clientes - Duração: 0.94s
+2025-09-27 22:29:39,887 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:29:39,887 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:29:39,931 - INFO - Dados carregados: 33 clientes encontrados
+2025-09-27 22:29:39,933 - INFO - Iniciando validação de dados
+2025-09-27 22:29:39,933 - INFO - Validação concluída: 33 válidos, 0 inválidos
+2025-09-27 22:29:39,934 - INFO - Iniciando geração de 33 documentos
+2025-09-27 22:29:39,964 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.03s
+2025-09-27 22:29:39,995 - INFO - SUCESSO: Documento gerado para João Santos em 0.03s
+2025-09-27 22:29:40,020 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.03s
+2025-09-27 22:29:40,048 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.03s
+2025-09-27 22:29:40,075 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.03s
+2025-09-27 22:29:40,103 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.03s
+2025-09-27 22:29:40,128 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.02s
+2025-09-27 22:29:40,159 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.03s
+2025-09-27 22:29:40,189 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.03s
+2025-09-27 22:29:40,219 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.03s
+2025-09-27 22:29:40,258 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.04s
+2025-09-27 22:29:40,288 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.03s
+2025-09-27 22:29:40,324 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.03s
+2025-09-27 22:29:40,353 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.03s
+2025-09-27 22:29:40,379 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.02s
+2025-09-27 22:29:40,406 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.03s
+2025-09-27 22:29:40,433 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.03s
+2025-09-27 22:29:40,457 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.02s
+2025-09-27 22:29:40,480 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.02s
+2025-09-27 22:29:40,557 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.08s
+2025-09-27 22:29:40,577 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.02s
+2025-09-27 22:29:40,601 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.02s
+2025-09-27 22:29:40,626 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.02s
+2025-09-27 22:29:40,650 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.02s
+2025-09-27 22:29:40,676 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.02s
+2025-09-27 22:29:40,698 - INFO - SUCESSO: Documento gerado para André Morais em 0.02s
+2025-09-27 22:29:40,724 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.03s
+2025-09-27 22:29:40,745 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.02s
+2025-09-27 22:29:40,772 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.03s
+2025-09-27 22:29:40,792 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.02s
+2025-09-27 22:29:40,821 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.03s
+2025-09-27 22:29:40,845 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.02s
+2025-09-27 22:29:40,869 - INFO - SUCESSO: Documento gerado para Daniely Evellin em 0.02s
+2025-09-27 22:29:40,870 - INFO - ESTATISTICAS: Total=33, Sucessos=33, Erros=0
+2025-09-27 22:29:40,870 - INFO - FIM: Processamento de clientes - Duração: 0.98s
+2025-09-27 22:35:30,016 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:35:30,016 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:35:30,035 - INFO - Dados carregados: 33 clientes encontrados
+2025-09-27 22:35:30,035 - INFO - Iniciando validação de dados
+2025-09-27 22:35:30,036 - INFO - Validação concluída: 33 válidos, 0 inválidos
+2025-09-27 22:35:30,036 - INFO - Iniciando geração de 33 documentos
+2025-09-27 22:35:30,064 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.03s
+2025-09-27 22:35:30,092 - INFO - SUCESSO: Documento gerado para João Santos em 0.03s
+2025-09-27 22:35:30,118 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.03s
+2025-09-27 22:35:30,142 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.02s
+2025-09-27 22:35:30,168 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.03s
+2025-09-27 22:35:30,191 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.02s
+2025-09-27 22:35:30,218 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.03s
+2025-09-27 22:35:30,258 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.04s
+2025-09-27 22:35:30,284 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.03s
+2025-09-27 22:35:30,308 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.02s
+2025-09-27 22:35:30,333 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.03s
+2025-09-27 22:35:30,356 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.02s
+2025-09-27 22:35:30,382 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.03s
+2025-09-27 22:35:30,406 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.02s
+2025-09-27 22:35:30,432 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.02s
+2025-09-27 22:35:30,456 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.02s
+2025-09-27 22:35:30,484 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.03s
+2025-09-27 22:35:30,507 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.02s
+2025-09-27 22:35:30,534 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.03s
+2025-09-27 22:35:30,623 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.09s
+2025-09-27 22:35:30,653 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.03s
+2025-09-27 22:35:30,683 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.03s
+2025-09-27 22:35:30,716 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.03s
+2025-09-27 22:35:30,749 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.03s
+2025-09-27 22:35:30,781 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.03s
+2025-09-27 22:35:30,811 - INFO - SUCESSO: Documento gerado para André Morais em 0.03s
+2025-09-27 22:35:30,838 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.03s
+2025-09-27 22:35:30,864 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.02s
+2025-09-27 22:35:30,890 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.03s
+2025-09-27 22:35:30,917 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.03s
+2025-09-27 22:35:30,949 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.03s
+2025-09-27 22:35:30,973 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.02s
+2025-09-27 22:35:30,997 - INFO - SUCESSO: Documento gerado para Daniely Evellin em 0.02s
+2025-09-27 22:35:30,998 - INFO - ESTATISTICAS: Total=33, Sucessos=33, Erros=0
+2025-09-27 22:35:30,998 - INFO - FIM: Processamento de clientes - Duração: 0.98s
+2025-09-27 22:37:55,989 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:37:55,989 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:37:56,009 - INFO - Dados carregados: 33 clientes encontrados
+2025-09-27 22:37:56,009 - INFO - Iniciando validação de dados
+2025-09-27 22:37:56,009 - INFO - Validação concluída: 33 válidos, 0 inválidos
+2025-09-27 22:37:56,010 - INFO - Iniciando geração de 33 documentos
+2025-09-27 22:37:56,010 - ERROR - ERRO: Falha ao gerar documento para Maria Oliveira: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,010 - ERROR - ERRO: Falha ao gerar documento para João Santos: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,011 - ERROR - ERRO: Falha ao gerar documento para Ana Pereira: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,011 - ERROR - ERRO: Falha ao gerar documento para Pedro Costa: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,011 - ERROR - ERRO: Falha ao gerar documento para Sofia Rodrigues: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,011 - ERROR - ERRO: Falha ao gerar documento para Carlos Lima: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,012 - ERROR - ERRO: Falha ao gerar documento para Isabel Fernandes: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,012 - ERROR - ERRO: Falha ao gerar documento para Tiago Alves: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,013 - ERROR - ERRO: Falha ao gerar documento para Beatriz Martins: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,013 - ERROR - ERRO: Falha ao gerar documento para Luís Pires: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,013 - ERROR - ERRO: Falha ao gerar documento para Laura Ribeiro: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,014 - ERROR - ERRO: Falha ao gerar documento para Miguel Sousa: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,014 - ERROR - ERRO: Falha ao gerar documento para Inês Ferreira: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,014 - ERROR - ERRO: Falha ao gerar documento para Gonçalo Gomes: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,014 - ERROR - ERRO: Falha ao gerar documento para Rita Mendes: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,014 - ERROR - ERRO: Falha ao gerar documento para Nuno Carvalho: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,015 - ERROR - ERRO: Falha ao gerar documento para Mariana Pinto: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,015 - ERROR - ERRO: Falha ao gerar documento para Vasco Teixeira: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,015 - ERROR - ERRO: Falha ao gerar documento para Leonor Barbosa: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,015 - ERROR - ERRO: Falha ao gerar documento para Fernando Silva: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,015 - ERROR - ERRO: Falha ao gerar documento para Cláudia Gaspar: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,015 - ERROR - ERRO: Falha ao gerar documento para Ricardo Nunes: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,016 - ERROR - ERRO: Falha ao gerar documento para Patrícia Dias: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,016 - ERROR - ERRO: Falha ao gerar documento para Hugo Rocha: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,016 - ERROR - ERRO: Falha ao gerar documento para Joana Correia: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,016 - ERROR - ERRO: Falha ao gerar documento para André Morais: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,016 - ERROR - ERRO: Falha ao gerar documento para Vera Antunes: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,016 - ERROR - ERRO: Falha ao gerar documento para Rui Castro: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,017 - ERROR - ERRO: Falha ao gerar documento para Luísa Dinis: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,017 - ERROR - ERRO: Falha ao gerar documento para Paulo Simões: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,017 - ERROR - ERRO: Falha ao gerar documento para Daniely Vasconcelos: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,017 - ERROR - ERRO: Falha ao gerar documento para Estela Luna: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,017 - ERROR - ERRO: Falha ao gerar documento para Daniely Evellin: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:37:56,018 - INFO - ESTATISTICAS: Total=33, Sucessos=0, Erros=33
+2025-09-27 22:37:56,018 - INFO - FIM: Processamento de clientes - Duração: 0.03s
+2025-09-27 22:38:10,050 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:38:10,051 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:38:10,067 - INFO - Dados carregados: 33 clientes encontrados
+2025-09-27 22:38:10,067 - INFO - Iniciando validação de dados
+2025-09-27 22:38:10,067 - INFO - Validação concluída: 33 válidos, 0 inválidos
+2025-09-27 22:38:10,067 - INFO - Iniciando geração de 33 documentos
+2025-09-27 22:38:10,067 - ERROR - ERRO: Falha ao gerar documento para Maria Oliveira: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para João Santos: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Ana Pereira: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Pedro Costa: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Sofia Rodrigues: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Carlos Lima: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Isabel Fernandes: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Tiago Alves: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Beatriz Martins: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Luís Pires: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Laura Ribeiro: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Miguel Sousa: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Inês Ferreira: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Gonçalo Gomes: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,068 - ERROR - ERRO: Falha ao gerar documento para Rita Mendes: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,069 - ERROR - ERRO: Falha ao gerar documento para Nuno Carvalho: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,069 - ERROR - ERRO: Falha ao gerar documento para Mariana Pinto: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,069 - ERROR - ERRO: Falha ao gerar documento para Vasco Teixeira: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,069 - ERROR - ERRO: Falha ao gerar documento para Leonor Barbosa: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,069 - ERROR - ERRO: Falha ao gerar documento para Fernando Silva: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,069 - ERROR - ERRO: Falha ao gerar documento para Cláudia Gaspar: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,069 - ERROR - ERRO: Falha ao gerar documento para Ricardo Nunes: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,070 - ERROR - ERRO: Falha ao gerar documento para Patrícia Dias: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,070 - ERROR - ERRO: Falha ao gerar documento para Hugo Rocha: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,070 - ERROR - ERRO: Falha ao gerar documento para Joana Correia: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,070 - ERROR - ERRO: Falha ao gerar documento para André Morais: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,070 - ERROR - ERRO: Falha ao gerar documento para Vera Antunes: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,070 - ERROR - ERRO: Falha ao gerar documento para Rui Castro: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,071 - ERROR - ERRO: Falha ao gerar documento para Luísa Dinis: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,071 - ERROR - ERRO: Falha ao gerar documento para Paulo Simões: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,071 - ERROR - ERRO: Falha ao gerar documento para Daniely Vasconcelos: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,071 - ERROR - ERRO: Falha ao gerar documento para Estela Luna: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,071 - ERROR - ERRO: Falha ao gerar documento para Daniely Evellin: Package not found at '../templates/modelo_proposta.docx'
+2025-09-27 22:38:10,071 - INFO - ESTATISTICAS: Total=33, Sucessos=0, Erros=33
+2025-09-27 22:38:10,071 - INFO - FIM: Processamento de clientes - Duração: 0.02s
+2025-09-27 22:38:31,901 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:38:31,901 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:38:31,917 - INFO - Dados carregados: 33 clientes encontrados
+2025-09-27 22:38:31,917 - INFO - Iniciando validação de dados
+2025-09-27 22:38:31,918 - INFO - Validação concluída: 33 válidos, 0 inválidos
+2025-09-27 22:38:31,918 - INFO - Iniciando geração de 33 documentos
+2025-09-27 22:38:31,944 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.03s
+2025-09-27 22:38:31,977 - INFO - SUCESSO: Documento gerado para João Santos em 0.03s
+2025-09-27 22:38:32,016 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.04s
+2025-09-27 22:38:32,047 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.03s
+2025-09-27 22:38:32,071 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.02s
+2025-09-27 22:38:32,098 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.03s
+2025-09-27 22:38:32,138 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.04s
+2025-09-27 22:38:32,163 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.02s
+2025-09-27 22:38:32,182 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.02s
+2025-09-27 22:38:32,207 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.02s
+2025-09-27 22:38:32,264 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.06s
+2025-09-27 22:38:32,299 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.03s
+2025-09-27 22:38:32,323 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.02s
+2025-09-27 22:38:32,354 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.03s
+2025-09-27 22:38:32,379 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.02s
+2025-09-27 22:38:32,415 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.04s
+2025-09-27 22:38:32,445 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.03s
+2025-09-27 22:38:32,467 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.02s
+2025-09-27 22:38:32,489 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.02s
+2025-09-27 22:38:32,585 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.10s
+2025-09-27 22:38:32,610 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.02s
+2025-09-27 22:38:32,633 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.02s
+2025-09-27 22:38:32,661 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.03s
+2025-09-27 22:38:32,697 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.04s
+2025-09-27 22:38:32,722 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.03s
+2025-09-27 22:38:32,742 - INFO - SUCESSO: Documento gerado para André Morais em 0.02s
+2025-09-27 22:38:32,764 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.02s
+2025-09-27 22:38:32,789 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.02s
+2025-09-27 22:38:32,827 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.04s
+2025-09-27 22:38:32,849 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.02s
+2025-09-27 22:38:32,870 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.02s
+2025-09-27 22:38:32,894 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.02s
+2025-09-27 22:38:32,924 - INFO - SUCESSO: Documento gerado para Daniely Evellin em 0.03s
+2025-09-27 22:38:32,930 - INFO - ESTATISTICAS: Total=33, Sucessos=33, Erros=0
+2025-09-27 22:38:32,932 - INFO - FIM: Processamento de clientes - Duração: 1.03s
+2025-09-27 22:39:04,286 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:39:04,287 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:39:04,304 - INFO - Dados carregados: 33 clientes encontrados
+2025-09-27 22:39:04,304 - INFO - Iniciando validação de dados
+2025-09-27 22:39:04,305 - INFO - Validação concluída: 33 válidos, 0 inválidos
+2025-09-27 22:39:04,305 - INFO - Iniciando geração de 33 documentos
+2025-09-27 22:39:04,339 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.03s
+2025-09-27 22:39:04,376 - INFO - SUCESSO: Documento gerado para João Santos em 0.04s
+2025-09-27 22:39:04,407 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.03s
+2025-09-27 22:39:04,434 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.03s
+2025-09-27 22:39:04,460 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.03s
+2025-09-27 22:39:04,488 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.03s
+2025-09-27 22:39:04,531 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.04s
+2025-09-27 22:39:04,602 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.07s
+2025-09-27 22:39:04,656 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.04s
+2025-09-27 22:39:04,683 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.03s
+2025-09-27 22:39:04,707 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.02s
+2025-09-27 22:39:04,736 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.03s
+2025-09-27 22:39:04,762 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.03s
+2025-09-27 22:39:04,792 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.03s
+2025-09-27 22:39:04,819 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.03s
+2025-09-27 22:39:04,847 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.03s
+2025-09-27 22:39:04,873 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.03s
+2025-09-27 22:39:04,897 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.02s
+2025-09-27 22:39:04,925 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.03s
+2025-09-27 22:39:05,004 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.08s
+2025-09-27 22:39:05,026 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.02s
+2025-09-27 22:39:05,052 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.03s
+2025-09-27 22:39:05,084 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.03s
+2025-09-27 22:39:05,113 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.03s
+2025-09-27 22:39:05,142 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.03s
+2025-09-27 22:39:05,168 - INFO - SUCESSO: Documento gerado para André Morais em 0.03s
+2025-09-27 22:39:05,190 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.02s
+2025-09-27 22:39:05,217 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.03s
+2025-09-27 22:39:05,247 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.03s
+2025-09-27 22:39:05,273 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.02s
+2025-09-27 22:39:05,301 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.03s
+2025-09-27 22:39:05,344 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.04s
+2025-09-27 22:39:05,374 - INFO - SUCESSO: Documento gerado para Daniely Evellin em 0.03s
+2025-09-27 22:39:05,374 - INFO - ESTATISTICAS: Total=33, Sucessos=33, Erros=0
+2025-09-27 22:39:05,374 - INFO - FIM: Processamento de clientes - Duração: 1.09s
+2025-09-27 22:43:10,515 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:43:10,516 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:43:10,529 - INFO - Dados carregados: 34 clientes encontrados
+2025-09-27 22:43:10,529 - INFO - Iniciando validação de dados
+2025-09-27 22:43:10,530 - INFO - Validação concluída: 34 válidos, 0 inválidos
+2025-09-27 22:43:10,530 - INFO - Iniciando geração de 34 documentos
+2025-09-27 22:43:10,557 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.03s
+2025-09-27 22:43:10,579 - INFO - SUCESSO: Documento gerado para João Santos em 0.02s
+2025-09-27 22:43:10,597 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.02s
+2025-09-27 22:43:10,617 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.02s
+2025-09-27 22:43:10,637 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.02s
+2025-09-27 22:43:10,663 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.03s
+2025-09-27 22:43:10,686 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.02s
+2025-09-27 22:43:10,708 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.02s
+2025-09-27 22:43:10,730 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.02s
+2025-09-27 22:43:10,751 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.02s
+2025-09-27 22:43:10,771 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.02s
+2025-09-27 22:43:10,795 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.02s
+2025-09-27 22:43:10,818 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.02s
+2025-09-27 22:43:10,871 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.05s
+2025-09-27 22:43:10,892 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.02s
+2025-09-27 22:43:10,916 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.02s
+2025-09-27 22:43:10,936 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.02s
+2025-09-27 22:43:10,958 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.02s
+2025-09-27 22:43:10,982 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.02s
+2025-09-27 22:43:11,004 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.02s
+2025-09-27 22:43:11,026 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.02s
+2025-09-27 22:43:11,051 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.03s
+2025-09-27 22:43:11,072 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.02s
+2025-09-27 22:43:11,094 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.02s
+2025-09-27 22:43:11,114 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.02s
+2025-09-27 22:43:11,139 - INFO - SUCESSO: Documento gerado para André Morais em 0.02s
+2025-09-27 22:43:11,163 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.02s
+2025-09-27 22:43:11,184 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.02s
+2025-09-27 22:43:11,208 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.02s
+2025-09-27 22:43:11,231 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.02s
+2025-09-27 22:43:11,254 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.02s
+2025-09-27 22:43:11,279 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.02s
+2025-09-27 22:43:11,346 - INFO - SUCESSO: Documento gerado para Daniely Evellin em 0.07s
+2025-09-27 22:43:11,364 - INFO - SUCESSO: Documento gerado para Orlando Nascimeto em 0.02s
+2025-09-27 22:43:11,364 - INFO - ESTATISTICAS: Total=34, Sucessos=34, Erros=0
+2025-09-27 22:43:11,364 - INFO - FIM: Processamento de clientes - Duração: 0.85s
+2025-09-27 22:49:10,427 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:49:10,428 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:49:10,453 - INFO - Dados carregados: 34 clientes encontrados
+2025-09-27 22:49:10,453 - INFO - Iniciando validação de dados
+2025-09-27 22:49:10,454 - INFO - Validação concluída: 34 válidos, 0 inválidos
+2025-09-27 22:49:10,454 - INFO - Iniciando geração de 34 documentos
+2025-09-27 22:49:10,489 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.03s
+2025-09-27 22:49:10,520 - INFO - SUCESSO: Documento gerado para João Santos em 0.03s
+2025-09-27 22:49:10,546 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.03s
+2025-09-27 22:49:10,585 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.04s
+2025-09-27 22:49:10,614 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.03s
+2025-09-27 22:49:10,639 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.02s
+2025-09-27 22:49:10,669 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.03s
+2025-09-27 22:49:10,696 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.03s
+2025-09-27 22:49:10,720 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.02s
+2025-09-27 22:49:10,746 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.03s
+2025-09-27 22:49:10,772 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.03s
+2025-09-27 22:49:10,798 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.03s
+2025-09-27 22:49:10,821 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.02s
+2025-09-27 22:49:10,847 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.03s
+2025-09-27 22:49:10,872 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.02s
+2025-09-27 22:49:10,896 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.02s
+2025-09-27 22:49:10,921 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.02s
+2025-09-27 22:49:10,947 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.03s
+2025-09-27 22:49:10,972 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.02s
+2025-09-27 22:49:11,046 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.07s
+2025-09-27 22:49:11,068 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.02s
+2025-09-27 22:49:11,091 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.02s
+2025-09-27 22:49:11,119 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.03s
+2025-09-27 22:49:11,144 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.02s
+2025-09-27 22:49:11,170 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.03s
+2025-09-27 22:49:11,193 - INFO - SUCESSO: Documento gerado para André Morais em 0.02s
+2025-09-27 22:49:11,219 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.03s
+2025-09-27 22:49:11,241 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.02s
+2025-09-27 22:49:11,271 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.03s
+2025-09-27 22:49:11,299 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.03s
+2025-09-27 22:49:11,329 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.03s
+2025-09-27 22:49:11,352 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.02s
+2025-09-27 22:49:11,378 - INFO - SUCESSO: Documento gerado para Daniely Evellin em 0.03s
+2025-09-27 22:49:11,402 - INFO - SUCESSO: Documento gerado para Erika Polina em 0.02s
+2025-09-27 22:49:11,403 - INFO - ESTATISTICAS: Total=34, Sucessos=34, Erros=0
+2025-09-27 22:49:11,403 - INFO - FIM: Processamento de clientes - Duração: 0.98s
+2025-09-27 22:50:14,542 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:50:14,543 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:50:14,557 - INFO - Dados carregados: 34 clientes encontrados
+2025-09-27 22:50:14,557 - INFO - Iniciando validação de dados
+2025-09-27 22:50:14,558 - INFO - Validação concluída: 34 válidos, 0 inválidos
+2025-09-27 22:50:14,558 - INFO - Iniciando geração de 34 documentos
+2025-09-27 22:50:14,585 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.03s
+2025-09-27 22:50:14,612 - INFO - SUCESSO: Documento gerado para João Santos em 0.03s
+2025-09-27 22:50:14,637 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.02s
+2025-09-27 22:50:14,663 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.03s
+2025-09-27 22:50:14,685 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.02s
+2025-09-27 22:50:14,712 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.03s
+2025-09-27 22:50:14,735 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.02s
+2025-09-27 22:50:14,762 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.03s
+2025-09-27 22:50:14,787 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.02s
+2025-09-27 22:50:14,813 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.03s
+2025-09-27 22:50:14,834 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.02s
+2025-09-27 22:50:14,857 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.02s
+2025-09-27 22:50:14,881 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.02s
+2025-09-27 22:50:14,903 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.02s
+2025-09-27 22:50:14,929 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.03s
+2025-09-27 22:50:14,953 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.02s
+2025-09-27 22:50:14,979 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.03s
+2025-09-27 22:50:15,003 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.02s
+2025-09-27 22:50:15,030 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.03s
+2025-09-27 22:50:15,099 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.07s
+2025-09-27 22:50:15,123 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.02s
+2025-09-27 22:50:15,147 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.02s
+2025-09-27 22:50:15,169 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.02s
+2025-09-27 22:50:15,194 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.03s
+2025-09-27 22:50:15,218 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.02s
+2025-09-27 22:50:15,241 - INFO - SUCESSO: Documento gerado para André Morais em 0.02s
+2025-09-27 22:50:15,268 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.03s
+2025-09-27 22:50:15,290 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.02s
+2025-09-27 22:50:15,317 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.03s
+2025-09-27 22:50:15,339 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.02s
+2025-09-27 22:50:15,364 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.02s
+2025-09-27 22:50:15,387 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.02s
+2025-09-27 22:50:15,412 - INFO - SUCESSO: Documento gerado para Daniely Evellin em 0.02s
+2025-09-27 22:50:15,436 - INFO - SUCESSO: Documento gerado para Erika Polina em 0.02s
+2025-09-27 22:50:15,437 - INFO - ESTATISTICAS: Total=34, Sucessos=34, Erros=0
+2025-09-27 22:50:15,437 - INFO - FIM: Processamento de clientes - Duração: 0.89s
+2025-09-27 22:58:46,327 - INFO - INICIO: Processamento de clientes
+2025-09-27 22:58:46,329 - INFO - Carregando planilha: RPONTES.xlsx
+2025-09-27 22:58:46,353 - INFO - Dados carregados: 33 clientes encontrados
+2025-09-27 22:58:46,354 - INFO - Iniciando validação de dados
+2025-09-27 22:58:46,354 - INFO - Validação concluída: 33 válidos, 0 inválidos
+2025-09-27 22:58:46,354 - INFO - Iniciando geração de 33 documentos
+2025-09-27 22:58:46,383 - INFO - SUCESSO: Documento gerado para Maria Oliveira em 0.03s
+2025-09-27 22:58:46,411 - INFO - SUCESSO: Documento gerado para João Santos em 0.03s
+2025-09-27 22:58:46,434 - INFO - SUCESSO: Documento gerado para Ana Pereira em 0.02s
+2025-09-27 22:58:46,459 - INFO - SUCESSO: Documento gerado para Pedro Costa em 0.02s
+2025-09-27 22:58:46,482 - INFO - SUCESSO: Documento gerado para Sofia Rodrigues em 0.02s
+2025-09-27 22:58:46,506 - INFO - SUCESSO: Documento gerado para Carlos Lima em 0.02s
+2025-09-27 22:58:46,533 - INFO - SUCESSO: Documento gerado para Isabel Fernandes em 0.03s
+2025-09-27 22:58:46,560 - INFO - SUCESSO: Documento gerado para Tiago Alves em 0.03s
+2025-09-27 22:58:46,584 - INFO - SUCESSO: Documento gerado para Beatriz Martins em 0.02s
+2025-09-27 22:58:46,608 - INFO - SUCESSO: Documento gerado para Luís Pires em 0.02s
+2025-09-27 22:58:46,631 - INFO - SUCESSO: Documento gerado para Laura Ribeiro em 0.02s
+2025-09-27 22:58:46,653 - INFO - SUCESSO: Documento gerado para Miguel Sousa em 0.02s
+2025-09-27 22:58:46,678 - INFO - SUCESSO: Documento gerado para Inês Ferreira em 0.02s
+2025-09-27 22:58:46,702 - INFO - SUCESSO: Documento gerado para Gonçalo Gomes em 0.02s
+2025-09-27 22:58:46,728 - INFO - SUCESSO: Documento gerado para Rita Mendes em 0.03s
+2025-09-27 22:58:46,749 - INFO - SUCESSO: Documento gerado para Nuno Carvalho em 0.02s
+2025-09-27 22:58:46,771 - INFO - SUCESSO: Documento gerado para Mariana Pinto em 0.02s
+2025-09-27 22:58:46,800 - INFO - SUCESSO: Documento gerado para Vasco Teixeira em 0.03s
+2025-09-27 22:58:46,821 - INFO - SUCESSO: Documento gerado para Leonor Barbosa em 0.02s
+2025-09-27 22:58:46,886 - INFO - SUCESSO: Documento gerado para Fernando Silva em 0.07s
+2025-09-27 22:58:46,905 - INFO - SUCESSO: Documento gerado para Cláudia Gaspar em 0.02s
+2025-09-27 22:58:46,931 - INFO - SUCESSO: Documento gerado para Ricardo Nunes em 0.02s
+2025-09-27 22:58:46,951 - INFO - SUCESSO: Documento gerado para Patrícia Dias em 0.02s
+2025-09-27 22:58:46,974 - INFO - SUCESSO: Documento gerado para Hugo Rocha em 0.02s
+2025-09-27 22:58:46,997 - INFO - SUCESSO: Documento gerado para Joana Correia em 0.02s
+2025-09-27 22:58:47,020 - INFO - SUCESSO: Documento gerado para André Morais em 0.02s
+2025-09-27 22:58:47,046 - INFO - SUCESSO: Documento gerado para Vera Antunes em 0.03s
+2025-09-27 22:58:47,071 - INFO - SUCESSO: Documento gerado para Rui Castro em 0.03s
+2025-09-27 22:58:47,097 - INFO - SUCESSO: Documento gerado para Luísa Dinis em 0.03s
+2025-09-27 22:58:47,123 - INFO - SUCESSO: Documento gerado para Paulo Simões em 0.03s
+2025-09-27 22:58:47,150 - INFO - SUCESSO: Documento gerado para Daniely Vasconcelos em 0.03s
+2025-09-27 22:58:47,170 - INFO - SUCESSO: Documento gerado para Estela Luna em 0.02s
+2025-09-27 22:58:47,201 - INFO - SUCESSO: Documento gerado para Daniely Evellin em 0.03s
+2025-09-27 22:58:47,217 - INFO - ESTATISTICAS: Total=33, Sucessos=33, Erros=0
+2025-09-27 22:58:47,219 - INFO - FIM: Processamento de clientes - Duração: 0.89s
