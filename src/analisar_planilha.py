@@ -1,8 +1,13 @@
+"""
+Script para analisar a estrutura da planilha RPONTES
+Mostra abas, colunas e quantidade de dados
+"""
+
 import openpyxl
 import os
 
 def analisar_planilha(caminho_arquivo):
-    """Analisa a estrutura da planilha RPONTES"""
+    """Analisa e exibe a estrutura da planilha"""
     try:
         wb = openpyxl.load_workbook(caminho_arquivo)
         
@@ -10,11 +15,12 @@ def analisar_planilha(caminho_arquivo):
         print(f"Abas disponíveis: {wb.sheetnames}")
         print("-" * 50)
         
+        # Analisa cada aba da planilha
         for nome_aba in wb.sheetnames:
             ws = wb[nome_aba]
             print(f"\nAba: '{nome_aba}'")
             
-            # Mostra cabeçalhos (primeira linha)
+            # Extrai cabeçalhos da primeira linha
             headers = []
             for cell in ws[1]:
                 if cell.value:
@@ -22,7 +28,7 @@ def analisar_planilha(caminho_arquivo):
             
             print(f"Colunas ({len(headers)}): {headers}")
             
-            # Conta linhas com dados
+            # Conta quantas linhas têm dados
             linhas_dados = 0
             for row in ws.iter_rows(min_row=2):
                 if any(cell.value for cell in row):
@@ -32,10 +38,10 @@ def analisar_planilha(caminho_arquivo):
                     
             print(f"Linhas de dados: {linhas_dados}")
             
-            # Mostra exemplo da primeira linha de dados
+            # Mostra exemplo dos primeiros dados
             if linhas_dados > 0:
                 primeira_linha = [cell.value for cell in ws[2]]
-                print(f"Exemplo: {primeira_linha[:3]}...")  # Primeiros 3 valores
+                print(f"Exemplo: {primeira_linha[:3]}...")
                 
         wb.close()
         

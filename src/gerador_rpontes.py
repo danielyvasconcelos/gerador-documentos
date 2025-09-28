@@ -1,34 +1,40 @@
+"""
+Gerador de Documentos - R Pontes Construtora
+Automatiza a criação de propostas comerciais a partir de dados do Excel
+"""
+
 import openpyxl
 from docx import Document
 import os
 from datetime import datetime
+from validador import ValidadorDados
 
 class GeradorRPontes:
+    """Classe principal que gera documentos Word a partir de dados do Excel"""
+    
     def __init__(self, caminho_planilha, caminho_template):
         self.caminho_planilha = caminho_planilha
         self.caminho_template = caminho_template
         self.pasta_saida = "../data/documentos_gerados"
         
     def ler_dados_completos(self):
-        """Combina dados de todas as abas da planilha RPONTES"""
+        """Lê e combina dados das 4 abas da planilha RPONTES"""
         wb = openpyxl.load_workbook(self.caminho_planilha)
         
-        # Lê cada aba
+        # Carrega cada aba da planilha
         aba_clientes = wb['Dados dos Clientes']
         aba_imoveis = wb['Dados do ImóvelServiço Contrata']
         aba_financeiro = wb['Dados Financeiros e Valores']
         aba_status = wb['StatusErro']
         
         dados_completos = []
-        
-        # Detecta quantas linhas têm dados
         max_row = aba_clientes.max_row
         
-        # Combina dados linha por linha
-        for i in range(2, max_row + 1):  # Dinâmico baseado nos dados
+        # Percorre cada linha de dados (pula o cabeçalho)
+        for i in range(2, max_row + 1):
             cliente = {}
             
-            # Dados dos clientes
+            # Dados pessoais
             cliente['ID_PROPOSTA'] = aba_clientes.cell(i, 1).value
             cliente['NOME_CLIENTE'] = aba_clientes.cell(i, 2).value
             cliente['DOCUMENTO_CLIENTE'] = aba_clientes.cell(i, 3).value
@@ -41,7 +47,7 @@ class GeradorRPontes:
             cliente['METRAGEM'] = aba_imoveis.cell(i, 3).value
             cliente['DESCRICAO_SERVICOS'] = aba_imoveis.cell(i, 4).value
             
-            # Dados financeiros
+            # Dados financeiros - formata valores em reais
             valor_total = aba_financeiro.cell(i, 1).value
             valor_entrada = aba_financeiro.cell(i, 2).value
             cliente['VALOR_TOTAL'] = f"R$ {valor_total:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.')
@@ -49,7 +55,7 @@ class GeradorRPontes:
             cliente['NUMERO_PARCELAS'] = int(aba_financeiro.cell(i, 3).value)
             cliente['DATA_PRIMEIRA_PARCELA'] = aba_financeiro.cell(i, 4).value
             
-            # Status
+            # Status de controle
             cliente['STATUS_GERACAO'] = aba_status.cell(i, 1).value
             
             dados_completos.append(cliente)
@@ -58,10 +64,10 @@ class GeradorRPontes:
         return dados_completos
     
     def gerar_documento(self, dados_cliente):
-        """Gera documento personalizado"""
+        """Gera documento Word personalizado substituindo os placeholders"""
         doc = Document(self.caminho_template)
         
-        # Substitui campos dinâmicos
+        # Substitui placeholders no formato {CAMPO} pelos valores reais
         for paragraph in doc.paragraphs:
             texto_original = paragraph.text
             for key, value in dados_cliente.items():
@@ -71,7 +77,7 @@ class GeradorRPontes:
                         texto_original = texto_original.replace(placeholder, str(value))
             paragraph.text = texto_original
         
-        # Nome do arquivo
+        # Cria nome do arquivo: Proposta_001_2025_Maria_Silva.docx
         nome_cliente = str(dados_cliente['NOME_CLIENTE']).replace(' ', '_')
         id_proposta = str(dados_cliente['ID_PROPOSTA']).replace('/', '_')
         nome_arquivo = f"Proposta_{id_proposta}_{nome_cliente}.docx"
@@ -81,17 +87,33 @@ class GeradorRPontes:
         return caminho_saida
     
     def processar_clientes(self, limite=None):
-        """Processa clientes da planilha RPONTES"""
+        """Método principal que coordena todo o processo de geração"""
+        # Lê dados da planilha
         dados_clientes = self.ler_dados_completos()
         
         if limite:
             dados_clientes = dados_clientes[:limite]
-            
-        documentos_gerados = []
         
-        print(f"Processando {len(dados_clientes)} clientes...")
+        # Valida os dados antes de gerar documentos
+        validador = ValidadorDados()
+        print("Validando dados...")
         
+        clientes_validos = []
         for i, cliente in enumerate(dados_clientes, 1):
+            if validador.validar_cliente(cliente, i + 1):  # +1 por causa do cabeçalho
+                clientes_validos.append(cliente)
+        
+        print(validador.obter_relatorio_erros())
+        
+        if not clientes_validos:
+            print("Nenhum cliente valido encontrado!")
+            return []
+        
+        # Gera documentos para clientes válidos
+        documentos_gerados = []
+        print(f"Gerando documentos para {len(clientes_validos)} clientes validos...")
+        
+        for i, cliente in enumerate(clientes_validos, 1):
             try:
                 caminho_doc = self.gerar_documento(cliente)
                 documentos_gerados.append(caminho_doc)
@@ -101,13 +123,13 @@ class GeradorRPontes:
         
         return documentos_gerados
 
+# Executa apenas quando o arquivo é rodado diretamente
 if __name__ == "__main__":
     planilha = "../data/RPONTES.xlsx"
     template = "../templates/modelo_proposta.docx"
     
     gerador = GeradorRPontes(planilha, template)
     
-    # Processa TODOS os 30 clientes
     print("Iniciando geração de documentos...")
     documentos = gerador.processar_clientes()
-    print(f"\\nConcluído! {len(documentos)} documentos gerados.")
+    print(f"\nConcluído! {len(documentos)} documentos gerados.")
