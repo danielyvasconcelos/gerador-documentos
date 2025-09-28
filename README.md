@@ -1,6 +1,17 @@
-# Gerador de Documentos - R Pontes Construtora
+# 🚀 Gerador de Documentos - R Pontes Construtora
 
 Automatiza a criação de propostas comerciais personalizadas a partir de dados estruturados em planilhas Excel.
+
+## 📦 Download Rápido
+
+**Quer usar sem instalar nada?**
+
+➡️ **[Baixar Executável (GitHub Releases)](../../releases/latest)**
+
+1. Clique no link acima
+2. Baixe `GeradorDocumentos_v1.0.0.zip`
+3. Extraia e execute `GeradorDocumentos.exe`
+4. Pronto! ✅
 
 ## Funcionalidades
 
@@ -123,32 +134,75 @@ O sistema gera logs detalhados com:
 - **Logs Profissionais:** Rastreamento completo com timestamps
 - **Multiplataforma:** Funciona em qualquer sistema com Python
 
-## Distribuição
+## 📥 Opções de Download
 
-### **Executável (.exe)**
+### **🎯 Para Usuários (Recomendado)**
 
-Para gerar o executável:
+**Baixar executável pronto:**
+- ➡️ **[GitHub Releases](../../releases/latest)**
+- Arquivo: `GeradorDocumentos_v1.0.0.zip` (33MB)
+- **Não precisa instalar Python!**
 
+### **👨‍💻 Para Desenvolvedores**
+
+**Clonar e executar código:**
 ```bash
-# Instalar PyInstaller
-pip install pyinstaller
-
-# Gerar executável
-python -m PyInstaller --onefile --windowed --name=GeradorDocumentos src/interface_grafica.py
+git clone https://github.com/SEU-USUARIO/gerador-documentos.git
+cd gerador-documentos
+pip install -r requirements.txt
+python src/interface_grafica.py
 ```
 
-**Resultado:** `dist/GeradorDocumentos.exe` (funciona sem Python instalado)
+**Gerar próprio executável:**
+```bash
+pip install pyinstaller
+python build_release.py
+```
 
-### **GitHub Releases**
+## 🎯 Casos de Uso
 
-- O executável não está no repositório (arquivo muito grande)
-- Baixe a versão compilada em [Releases](../../releases)
-- Ou compile você mesmo usando as instruções acima
+### **🏢 Empresas que podem usar:**
+- **Construtoras:** Propostas de imóveis
+- **Escritórios:** Contratos de serviços  
+- **Lojas:** Orçamentos personalizados
+- **Escolas:** Certificados de alunos
+- **Clínicas:** Relatórios médicos
+- **Qualquer empresa** que gere documentos repetitivos
 
-## Impacto
+### **📊 Tipos de planilha aceitos:**
+- Qualquer arquivo `.xlsx` ou `.xls`
+- Uma ou múltiplas abas
+- Qualquer estrutura de dados
 
-- **Tempo:** De horas para minutos
-- **Precisão:** Eliminação de erros manuais
-- **Produtividade:** Automação completa do processo
-- **Flexibilidade:** Use seus próprios templates e dados
-- **Auditoria:** Logs detalhados para controle
+### **📄 Tipos de template aceitos:**
+- Qualquer arquivo `.docx`
+- Preserva logos, cores e formatação
+- Usa placeholders `{CAMPO}` para substituição
+
+## 📈 Impacto
+
+- **⏱️ Tempo:** De horas para minutos
+- **🎯 Precisão:** Eliminação de erros manuais
+- **🚀 Produtividade:** Automação completa do processo
+- **🔧 Flexibilidade:** Use seus próprios templates e dados
+- **📋 Auditoria:** Logs detalhados para controle
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! 
+
+1. Fork o projeto
+2. Crie uma branch para sua feature
+3. Commit suas mudanças
+4. Push para a branch
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+---
+
+**Desenvolvido por:** Daniely Vasconcelos  
+**Versão:** 1.0.0  
+**Status:** ✅ Estável e em produção
